@@ -1,0 +1,55 @@
+.Row {
+	width: 960px;
+}
+
+#Content {
+	width: 75.43859649122807%;
+}
+
+#Panel {
+	width: 19.54385964912281%;
+}
+
+.ContentColumn {
+	margin: 0 0 0 24.56140350877193%;
+}
+
+.BreadcrumbsWrapper {
+	width: 100%;
+}
+
+.SiteMenu li:first-child {
+	margin-right: 5.5754385964912%;
+}
+
+.Button.ApplyButton,.Button.Primary.SignInPopup {
+	padding: 10px 17px;
+}
+
+.ProfilePhotoLarge {
+	width: 187.61px;
+}
+
+#vanilla_discussion_index .Item.ItemDiscussion {
+	padding: 16px 30px 8px 20px;
+}
+
+.SiteSearch .InputBox {
+	width: 215px!important;
+}
+
+#Head .SiteTitle a {
+	width: 187.61px;
+}
+
+.Button.ApplyButton,.Button.Primary.SignInPopup {
+	width: 28.3%;
+}
+
+.SiteMenu li:first-child+li+li+li+li+li {
+	display: none;
+}
+
+.SiteMenu li:first-child+li {
+	margin-right: 40px;
+}

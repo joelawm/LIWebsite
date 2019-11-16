@@ -1,0 +1,282 @@
+body,
+.SiteTitle,
+h1, h2, h3, h4, h5 {}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+  background-color: #0072bf;
+  color: black;
+}
+body {
+  background: #000;
+}
+
+/** Custom Master View Stuff **/
+#Frame > .Top {
+    background: #0072bf;
+    padding: 0 20px;
+    text-align: left;
+    line-height: 2.4;
+}
+
+.TopMenu a {
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.TopMenu a:hover {
+  background-color: #0072bf;
+  color: black;
+}
+
+.Banner {
+    position: relative;
+    min-height: 98px;
+    text-align: left;
+    padding: 20px;
+}
+
+.SiteTitle {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.SiteTitle a {
+    color: #ffffff;
+}
+
+.Banner .Row {
+    position: relative;
+}
+
+#Head {
+    background: #333333;
+    border-width: 1px 0;
+    padding: 0;
+}
+
+#Head .SiteMenu a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 15px 0;
+    margin: 0 30px;
+    display: inline-block;
+}
+
+#Head .SiteMenu a:first-child {
+    margin-left: 0;
+}
+
+#Head .SiteMenu a:hover {
+  background-color: #0072bf;
+  color: black;
+}
+
+#Head .SiteSearch {
+    top: 12px;
+    right: 0;
+}
+
+#Head .SiteSearch .InputBox {
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 2px #000;
+    font-size: 13px;
+}
+
+#Head .SiteSearch .Button {
+    top: 6px;
+}
+
+.BreadcrumbsWrapper {
+    font-size: 11px;
+    padding: 6px 0;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.Breadcrumbs a {
+    color: #ffffff;
+}
+
+/** Vanilla Contents **/
+.PageDescription {
+    color: #888;
+    margin: 8px;
+}
+
+.CategoryBox h2 {
+    margin: 20px 8px 8px;
+}
+
+.CategoryBox h2 a {
+    color: #aaa;
+}
+
+/**main forum homepage**/
+.HomepageTitle {
+    margin: 0 8px;
+    color: #ffffff;
+}
+
+.HomepageTitle .AdminCheck {
+    padding: 0;
+}
+
+.Pager {
+    font-size: 18px;
+}
+
+.ProfileOptions {
+    font-weight: bold;
+}
+
+.DataTable td {
+    border-style: dotted;
+    color: #ffffff;
+}
+
+/**descrtiption on main page **/
+.DataList > .Item {
+    border-style: dotted !important;
+    padding: 12px 8px;
+    color: #ffffff;
+}
+
+.DataList .Item .Item {
+    border: none !important;
+}
+
+.DataList .Title,
+.DataList .Title a {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/**Title for each catarogy**/
+.DataList .Title {
+    color: #ffffff;
+}
+
+/**forum counters and stats **/
+.Meta,
+.MItem,
+.MItem a {
+    color: #ffffff;
+}
+
+.DataList .Title a:hover {
+    text-decoration: underline;
+}
+
+.MItem {
+    margin: 0 8px;
+    padding: 0;
+}
+
+.MItem:last-child {
+    border: none;
+}
+
+/* Big Button */
+.ButtonGroup .Button,
+#Content input.Button,
+.Button {
+    background: #cc3300;
+    text-shadow: 0 -1px 0 #880000;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+    border-color: #763407;
+    color: #fff;
+}
+
+.ButtonGroup.Open .Button.Handle,
+#Content input.Button:hover,
+#Content input.Button:focus,
+#Content input.Button:active,
+.Button:hover,
+.Button:focus,
+.Button:active {
+    color: #fff;
+    border-color: #ffffff;
+}
+
+.ButtonGroup.Open .Button.Handle,
+#Content input.Button:focus,
+#Content input.Button:active,
+.Button:focus,
+.Button:active {
+    background: #aa1100;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#Panel .BigButton {
+    margin: 20px 0;
+}
+
+input.Button {
+    padding: 6px 12px;
+}
+
+.BoxFilter {
+    margin: 20px 0;
+}
+
+.Box {
+    color: #888;
+    margin: 0 0 30px;
+}
+
+.Box h4 {
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+
+.PanelInfo li {
+    font-weight: bold;
+    background: #f7f7f7;
+    padding: 2px 4px;
+    border-style: dotted !important;
+}
+
+.PanelInfo a {
+    color: #555;
+}
+
+.PanelInfo a:hover {
+    text-decoration: underline;
+}
+
+body.Profile .PanelInfo .Active,
+.PanelInfo .Active {
+    background: #fff;
+}
+
+.PanelInfo .Active a {
+    color: #333;
+}
+
+.Bullet {
+    color: #aaa;
+}
+
+
+/**Custom code I added**/
+.Meta .RSS img {
+     display: none !important;
+ }
+
+ .Role_Administrator .Author a {
+ color:red;
+ }

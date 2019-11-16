@@ -1,0 +1,807 @@
+/*--------------------------------------- all ---------------------------------------*/
+
+#Head {
+	background-color: #222831;
+	box-shadow: 0 1px 0 #000;
+}
+
+body {
+	background-color: #252c36;
+}
+
+#Body {
+	background-color: #e6e6e6;
+}
+
+#Foot {
+	background-color: #222831;
+	color: #6c6c6c;
+}
+
+#Foot a {
+	color: #484848;
+}
+
+#Foot a:hover {
+	color: #5e5e5e;
+}
+
+input.InputBox:focus,input.SmallInput:focus,textarea:focus {
+	background-color: #fff!important;
+}
+
+#Form_Body:focus,.InputBox:focus {
+	outline: 0 none;
+	background-color: #fff!important;
+}
+
+.SiteMenu li:hover {
+	border-bottom: 4px solid #5f5f5f !important;
+}
+
+#vanilla_discussions_bookmarked #Head li:first-child+li+li+li {
+	border-bottom: 4px solid #5f5f5f;
+	background-color: #252b34;
+}
+
+#vanilla_discussion_comment #Head li:first-child+li+li+li+li,#vanilla_discussion_index #Head li:first-child+li+li+li+li,#vanilla_discussions_index #Head li:first-child+li+li+li+li,#vanilla_discussions_mine #Head li:first-child+li+li+li+li {
+	border-bottom: 4px solid #5f5f5f;
+	background-color: #252b34;
+}
+
+#dashboard_activity_index #Head li:first-child+li+li {
+	border-bottom: 4px solid #5f5f5f;
+	background-color: #252b34;
+}
+
+#vanilla_categories_index #Head li:first-child+li {
+	border-bottom: 4px solid #5f5f5f;
+	background-color: #252b34;
+}
+
+.SiteMenu li:first-child:hover {
+	background-color: #252b34;
+
+}
+
+.SiteMenu li:first-child+li:hover {
+	background-color: #252b34;
+	
+}
+
+.SiteMenu li:first-child+li+li:hover {
+	background-color: #252b34;
+
+}
+
+.SiteMenu li:first-child+li+li+li:hover {
+	background-color: #252b34;
+}
+
+.SiteMenu li:first-child+li+li+li+li:hover {
+	background-color: #252b34;
+}
+
+#Body a {
+	color: #393E46;
+}
+
+
+
+.BoxButtons.BoxNewDiscussion a {
+	background-color: #5cc365;
+	color: #fff!important;
+}
+
+.Count,.Highlight,.Tag {
+	background-color: #5cc365;
+}
+.Count:hover,.Highlight:hover,.Tag:hover {
+	background-color: #35e444;
+}
+
+
+.BreadcrumbsWrapper span a {
+	border-right: 0 solid #efefef;
+}
+
+.Note.Closed.SignInOrRegister a:hover {
+	color: #000!important;
+}
+
+.MenuItems a:hover {
+	background-color: #76d87f !important;
+}
+
+.HasNew {
+	background-color: #5cc365 !important;
+	color:white;
+		-webkit-transition: -webkit-transform .2s;
+	-webkit-transition: .2s;
+	-moz-transition: -moz-transform .2s;
+	-moz-transition: .2s;
+	-o-transition: -o-transform .2s;
+	transition: transform .2s;
+	transition: .2s;
+}
+.HasNew:hover {
+	background-color: #35e444 !important;}
+
+#vanilla_discussions_index .DataList .Item .Tag:hover,.FilterMenu li:hover .Count,.PanelInfo.PanelCategories li:hover .Count {
+	background-color: #35e444 !important;
+}
+
+.PanelInfo.PanelCategories li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+.BoxFilter.BoxDiscussionFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+.BoxButtons.BoxNewDiscussion a:hover,.Buttons input:hover,a.Button:hover {
+	background-color: #35e444;
+	color: #fff!important;
+}
+
+a.NavButton.MemberButtons:hover {
+	background-color: #35e444;
+	color: #fff!important;
+}
+
+.PopList.Activities li:hover {
+	background-color: #5cc365 !important;
+}
+
+.PopList.Activities li:hover,.PopList.Activities li:hover a,.PopList.Activities li:hover div,.PopList.Activities li:hover strong {
+	color: #fff !important;
+}
+
+.PopList.Activities .Item.Title:hover {
+	color: #000 !important;
+}
+
+.PopList.Popin li:hover {
+	background-color: #5cc365 !important;
+}
+
+.PopList.Popin li:hover,.PopList.Popin li:hover a,.PopList.Popin li:hover div {
+	color: #fff !important;
+}
+
+.Column.PanelColumn .ProfilePhotoMedium {
+	border: 4px solid rgba(0, 0, 0, 0.12);
+}
+
+.ProfilePhoto.ProfilePhotoMedium {
+	border: 4px solid rgba(0, 0, 0, 0.12);
+}
+
+.ProfilePhoto.ProfilePhotoMedium:hover {
+	border: 4px solid rgba(0, 0, 0, 0.22);
+}
+
+.Button.ApplyButton,.Button.Primary.SignInPopup {
+	background-color: #50545d;
+	color: #fff!important;
+}
+
+.Button.Primary.SignInPopup {
+	background-color: #222831;
+	color: #fff!important;
+}
+
+.Button.Primary.SignInPopup:hover {
+	background-color: #35e444;
+}
+
+.ChangePicture.Popup span {
+	color: #b5b5b5;
+}
+
+mark {
+	background-color: #fff4f4!important;
+}
+
+#vanilla_discussion_index .Discussions.Active,#vanilla_discussions_index .Discussions.Active {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.FormWrapper {
+	border: 1px solid rgba(0,0,0,.1);
+	background: transparent;
+}
+
+#PhoneHidden {
+	background-color: #282f3a;
+	box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	color: #696363;
+}
+
+#EmailHidden {
+	background-color: #282f3a;
+	box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	color: #696363;
+}
+
+#EmailHidden:before,#PhoneHidden:before {
+	border-top: 8px solid #282f3a;
+}
+
+#vanilla_discussions_index .Item.Read {
+	background-color: transparent;
+}
+
+#vanilla_discussions_index .Item.Unread,#vanilla_discussions_index .ItemDiscussion {
+	background-color: transparent;
+}
+
+#vanilla_discussions_index div.PageControls.Top {
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: transparent;
+}
+
+#vanilla_discussions_index div.PageControls.Bottom {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+#vanilla_discussions_index .Highlight {
+	color: #fff!important;
+}
+
+#vanilla_discussions_index .DataList .Item,.NarrowList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+	border-bottom-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+
+#vanilla_discussions_index .BreadcrumbsWrapper span {
+	background-color: transparent;
+}
+
+#vanilla_discussions_index .BreadcrumbsWrapper .Breadcrumbs {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#dashboard_activity_index .BoxFilter.BoxActivityFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+.IndexPhoto img {
+	border: 2px solid grey;
+}
+
+.MessageList.Discussion {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.DataList .Item,.NarrowList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_index .DataList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+	border-top-width: 1px;
+}
+
+#vanilla_discussion_index .DataList .Item:first-child {
+	border: 0 solid rgba(0,0,0,.1);
+	border-top-width: 1px;
+}
+
+#vanilla_discussion_index .DataList .Item:last-child {
+	border-bottom-width: 0;
+}
+
+#vanilla_discussion_index .CommentsWrap {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+}
+
+#vanilla_discussion_index .PageTitle {
+	border: 0 solid rgba(0,0,0,.1);
+	border-bottom-width: 1px;
+}
+
+#vanilla_discussion_index h2.CommentHeading {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_index h2.CommentHeading {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_index .Column.ContentColumn .P {
+	border: 0 solid rgba(0,0,0,.1);
+
+	background-color: transparent;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+}
+
+#vanilla_discussion_index .Highlight {
+	color: #fff!important;
+}
+
+blockquote.Quote,blockquote.UserQuote {
+	background: rgba(0,0,0,0);
+	background-color: #f3f3f3!important;
+}
+
+#vanilla_discussion_index .FilterMenu .Discussions,#vanilla_discussions_index .FilterMenu .Discussions,#vanilla_discussions_mine .FilterMenu .Discussions,#vanilla_drafts_index .FilterMenu .Discussions {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#dashboard_profile_activity .FormWrapper,#dashboard_profile_index .FormWrapper {
+	background-color: transparent;
+}
+
+#dashboard_profile_comments .Item.Read,#dashboard_profile_discussions .Item.Read {
+	background-color: transparent;
+}
+
+#dashboard_profile_activity .BoxFilter.BoxProfileFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+#dashboard_profile_index .BoxFilter.BoxProfileFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+#dashboard_profile_discussions .BoxFilter.BoxProfileFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+#dashboard_profile_comments .BoxFilter.BoxProfileFilter li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+#dashboard_profile_discussions .Tag.Tag-Announcement:hover {
+	background-color: #35e444;
+}
+
+#vanilla_post_discussion .FormWrapper {
+	background-color: transparent;
+}
+
+#vanilla_categories_index .PageControls.Top {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: #efefef;
+}
+
+#vanilla_categories_index .PageControls.Bottom {
+	background-color: #efefef;
+}
+
+#vanilla_categories_index .Highlight {
+	color: #fff!important;
+}
+
+#vanilla_categories_index .Item.Read {
+	background-color: #f4f4f4;
+}
+
+#vanilla_categories_index .DataListWrap .DataList.CategoryList>li {
+	border: 1px solid rgba(0,0,0,.1);
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+
+.ChildCategories {
+	border-top: 1px dotted #ddd;
+}
+
+#vanilla_categories_index .DataList.Discussions .Item {
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+
+#vanilla_categories_index .Item.Read {
+	background-color: transparent;
+}
+
+#vanilla_categories_index .Item.Unread,#vanilla_categories_index .ItemDiscussion {
+	background-color: transparent;
+}
+
+#vanilla_categories_index div.PageControls.Top {
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: transparent;
+}
+
+#vanilla_categories_index div.PageControls.Bottom {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+#vanilla_categories_index .Highlight {
+	color: #fff!important;
+}
+
+#vanilla_categories_index .DataList .Item,.NarrowList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_categories_index .BreadcrumbsWrapper .Breadcrumbs {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_categories_index .BreadcrumbsWrapper span {
+	background-color: transparent;
+}
+
+#vanilla_categories_index .FilterMenu .Discussions {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.CategoryPhoto {
+	border: 4px solid rgba(0, 0, 0, 0.12);
+}
+
+.CategoryPhoto:hover {
+	border: 4px solid rgba(0, 0, 0, 0.22);
+}
+
+#vanilla_discussions_mine div.PageControls.Top {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussions_mine .Item.Read {
+	background: 0 0;
+}
+
+.DataList a.Delete:hover {
+	background-color: #76d87f !important;
+} 
+
+#vanilla_discussions_mine div.PageControls.Bottom {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussions_mine .Highlight {
+	color: #fff!important;
+}
+
+#vanilla_discussions_mine .DataList .Item,.NarrowList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussions_mine .BreadcrumbsWrapper .Breadcrumbs {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussions_mine .BreadcrumbsWrapper span {
+	background-color: transparent;
+}
+
+#vanilla_discussion_comment .Item.ItemDiscussion {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: #f7f7f7;
+}
+
+#vanilla_discussion_comment .PageTitle {
+	border: 0 solid rgba(0,0,0,.1);
+	border-bottom-width: 1px;
+}
+
+#vvanilla_discussion_comment h2.CommentHeading {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_comment .DataBox-Comments {
+	background-color: #efefef;
+}
+
+#vanilla_discussion_comment h2.CommentHeading {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_comment .Column.ContentColumn .P {
+	background-color: #efefef;
+}
+
+#vanilla_discussion_comment .MessageForm.CommentForm.FormTitleWrapper {
+	background: transparent;
+}
+
+#vanilla_discussion_comment .Highlight {
+	color: #fff!important;
+}
+
+#vanilla_discussion_comment h2.CommentHeading {
+	border: 0 solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_comment .Item.ItemDiscussion {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+}
+
+.DataList .Item,.NarrowList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+	border-bottom-width: 1px;
+}
+
+#vanilla_discussion_comment .DataList .Item {
+	border: 0 solid rgba(0,0,0,.1);
+	/* border-bottom-width: 1px; */
+}
+
+#vanilla_discussion_comment .DataList .Item:first-child {
+	border: 0 solid rgba(0,0,0,.1);
+	border-top-width: 1px;
+	/* border-bottom-width: 1px; */
+}
+
+#vanilla_discussion_comment .DataList .Item:last-child {
+	border-bottom-width: 0;
+}
+
+#vanilla_discussion_comment .DataBox-Comments {
+	background-color: transparent;
+}
+
+#vanilla_discussion_comment .Column.ContentColumn .P {
+	border: 0 solid rgba(0,0,0,.1);
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+#vanilla_discussion_comment .Highlight {
+	color: #fff!important;
+}
+
+blockquote.Quote,blockquote.UserQuote {
+	background: rgba(0,0,0,0);
+	background-color: #e2e2e2!important;
+}
+
+#vanilla_discussion_index .FilterMenu .Discussions,#vanilla_discussions_index .FilterMenu .Discussions,#vanilla_discussions_mine .FilterMenu .Discussions,#vanilla_drafts_index .FilterMenu .Discussions {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#vanilla_discussion_comment .DataBox.DataBox-Comments {
+	border: 0 solid rgba(0,0,0,.1);
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.Dashboard.Profile .Box.Group.SideMenu.Active li:hover {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+body.Profile.EditMode #Content form {
+	background: 0 0;
+}
+
+.Hero {
+	background: 0 0;
+}
+
+.Dashboard.Profile .Hero {
+	background: 0 0;
+}
+
+#dashboard_profile_preferences .Preferences tr:hover td {
+	background: #f7f7f7;
+	background: rgba(0,0,0,.03);
+}
+
+.js-new-avatar.Button.change-picture-new:hover {
+	background-color: #35e444;
+	color: #fff;
+}
+
+.Alert {
+	background: #15631b;
+}
+
+.Activities .DataList li {
+	background: 0 0;
+}
+
+#vanilla_discussions_bookmarked #Content ul li {
+	background: 0 0;
+}
+
+.PopList.Conversations li:hover {
+	background-color: #5cc365!important;
+}
+
+.PopList.Conversations li:hover,.PopList.Conversations li:hover a,.PopList.Conversations li:hover div,.PopList.Conversations li:hover strong {
+	color: #fff!important;
+}
+
+.PopList.Conversations .Item.Title:hover {
+	color: #000!important;
+}
+
+#Content .DataBox.DataBox-Comments {
+	border: 0 solid rgba(0,0,0,.1);
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.FormWrapper {
+  background: transparent;
+  background: transparent;
+
+}
+
+input.DateBox,
+input.InputBox,
+input.SmallInput,
+textarea {
+  border: 1px solid rgba(0,0,0,.2);;
+}
+
+/*--------------------------------------- small ---------------------------------------*/
+
+@media (max-width:540px) {
+	#vanilla_discussions_index #PagerBefore .Hightlight {
+		color: #fff!important;
+	}
+
+	.BreadcrumbsWrapper {
+		background-color: #a0a0a0;
+	}
+
+	#Foot {
+		background-color: #222831;
+		color: #484848;
+	}
+
+	.BoxButtons.BoxNewDiscussion a {
+		background-color: #5cc365;
+	}
+
+	#MobileFoot ul {
+		background-color: #30343a;
+	}
+
+	.BreadcrumbsWrapper span a {
+		background-color: #c6c6c6;
+	}
+
+	.BreadcrumbsWrapper span>span:first-child a {
+		background-color: #c6c6c6;
+	}
+
+	#vanilla_discussion_comment .Highlight {
+		color: #fff!important;
+	}
+
+	.BreadcrumbsWrapper {
+		background-color: transparent;
+	}
+
+	.BreadcrumbsWrapper span>span:first-child a {
+		background-color: transparent;
+	}
+
+	.BreadcrumbsWrapper span a {
+		background-color: transparent;
+	}
+		#dashboard_search_index #Head li:first-child {
+    border-bottom: 4px solid #5f5f5f;
+    background-color: #252b34;
+    }
+}
+
+/*--------------------------------------- medium ---------------------------------------*/
+
+@media (max-width:720px) and (min-width:540px) {
+	#vanilla_discussion_index .Column.ContentColumn .P {
+		border: 0 solid rgba(0,0,0,.1);
+	}
+
+	#vanilla_categories_index div.PageControls.Bottom {
+		border: 0 solid rgba(0,0,0,.1);
+	}
+
+	.DataList.CategoryList li {
+		border: 0 solid rgba(0,0,0,.1);
+	}
+
+	.Vanilla.Categories.isMobile.index.Section-CategoryList.editor-active .DataListWrap .DataList.CategoryList>li P {
+		border-top: 0 solid rgba(0,0,0,.1)!important;
+	}
+
+	.Vanilla.Categories.isMobile.index.Section-CategoryList.editor-active .DataListWrap .DataList.CategoryList>li:first-child {
+		border-top: 1px solid rgba(0,0,0,.1)!important;
+	}
+
+	#vanilla_discussion_comment .Column.ContentColumn .P {
+		border: 0 solid rgba(0,0,0,.1);
+	}
+
+	#dashboard_search_index #Head li:first-child {
+		border-bottom: 4px solid #5f5f5f;
+			background-color: #252b34;
+	}
+
+	.MeButton {
+		border: solid 1px transparent;
+	}
+
+	.BreadcrumbsWrapper {
+		background-color: #a0a0a0;
+	}
+
+	.BoxButtons.BoxNewDiscussion a {
+		background-color: #5cc365;
+	}
+
+	#MobileFoot ul {
+		background-color: #30343a;
+	}
+
+	#MobileFoot ul li {
+		background-color: #222831;
+	}
+
+	.BreadcrumbsWrapper span a {
+		background-color: #b5b5b5;
+	}
+
+	.BreadcrumbsWrapper span>span:first-child a {
+		background-color: #c6c6c6;
+	}
+
+	.BreadcrumbsWrapper {
+		background-color: transparent;
+	}
+
+	.BoxButtons.BoxNewDiscussion a {
+		background-color: #5cc365;
+	}
+
+	#MobileFoot ul {
+		background-color: #30343a;
+	}
+
+	#MobileFoot ul li {
+		background-color: #222831;
+	}
+
+	.BreadcrumbsWrapper span a {
+		background-color: transparent;
+	}
+
+	.BreadcrumbsWrapper span>span:first-child a {
+		background-color: transparent;
+	}
+
+	#MobileFoot {
+		background-color: #30343a;
+	}
+}
+

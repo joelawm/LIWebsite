@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lost Instinct</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/photos/favicon.ico"/>
+</head>
+<body class="backgroundcolor">
+    <!--Navbar-->
+    <div class="topnavbar greygradient">
+        <a href="https://lostinstinct.net"><img class="navbarimg" src="/photos/LastInstinctLogo128.png" /></a>
+          <p>
+            <a href="/games/">GAMES</a>
+            <a href="/store/" class="">STORE</a>
+            <a href="/forum/">FORUMS</a>
+            <a href="/wiki/">WIKI</a>
+            <a href="/jobs/">JOBS</a>
+          </p>
+    </div>
+    <div class="main">
+
+    <!--Star background-->
+    <div class="stars">
+        <div class="centered">
+            <p class="titlew">We don't want to spoil the game!</p>
+            <p class="comingsoon">Yet...</p>
+        </div>
+    </div>
+
+    </div>
+</body>
+<!-- Footer -->
+<div class="footer">
+    <p class="center" style="color:white;">LOST INSTINCT GAME DEVELOPER &copy</p>
+</div>
+</html>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav")
+    {
+        x.className += " responsive";
+    }
+    else
+    {
+        x.className = "topnav";
+    }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("topnav");
+var btns = header.getElementsByClassName("topnav");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>
